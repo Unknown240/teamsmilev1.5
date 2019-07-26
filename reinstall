@@ -1,0 +1,14 @@
+#!/system/xbin/bash
+#!/system/xbin/botbrew
+#!/website : unknown240.github.io
+clear
+cd ..
+rm -rf fbreact
+curl -O https://de1.androidfilehost.com/dl/2Yu6BNvHWsBIBkx_wbEklw/1564376288/6006931924117924713/fbreact.zip
+pkg install unzip
+unzip fbreact.zip
+rm -rf fbreact.zip
+rm -rf reinstall
+cd fbreact
+bash run.sh
+
